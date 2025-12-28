@@ -21,7 +21,7 @@ function Home() {
     })
   ).map((img) => img.default);
   const creative = Object.values(
-    import.meta.glob("../../optimized/creative/*.{jpg,jpeg,png,webp}", {
+    import.meta.glob("../../optimized/PreBirthday/*.{jpg,jpeg,png,webp}", {
       eager: true,
     })
   ).map((img) => img.default);
