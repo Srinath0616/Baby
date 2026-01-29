@@ -11,7 +11,6 @@ const Weddings = () => {
   const [theme, setTheme] = useState("all");
   const [allImages, setAllImages] = useState([]);
 
-  // Static VALID vite glob imports
   const engagementImgs = Object.values(
     import.meta.glob("../../optimized/engagement/*.{jpg,jpeg,png,webp}", { eager: true })
   ).map((m) => m.default);
@@ -32,7 +31,7 @@ const Weddings = () => {
     import.meta.glob("../../optimized/reception/*.{jpg,jpeg,png,webp}", { eager: true })
   ).map((m) => m.default);
 
-  // ❌ Saree Ceremony intentionally excluded from Weddings page
+  //  Saree Ceremony intentionally excluded from Weddings page
 
   useEffect(() => {
     const combined = [
