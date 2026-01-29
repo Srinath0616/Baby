@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="footer-contact">
           <h3>Reach Us</h3>
           <p><FaMapMarkerAlt /><a href="https://maps.google.com/maps?ll=17.546896,78.482647&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=16511930197701573434" className="mail">Kompally, Hyderabad, India</a></p>
-          <p><FaPhoneAlt /><a href="tel:+91 93473 70223" className="mail"> +91 93473 70223</a></p>
+          <p><FaPhoneAlt /><a href="tel:+91 94906 85458" className="mail"> +91 94906 85458</a></p>
           <p><FaEnvelope /><a href="mailto:photoprashanth@gmail.com" className="mail"> photoprashanth@gmail.com</a> </p>
 
           <div className="footer-socials">

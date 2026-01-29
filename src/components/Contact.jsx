@@ -44,11 +44,11 @@ const Contact = () => {
               <p>
                 {" "}
                 <i>
-                  <b>+91-94906 85458</b>
+                  <b>+91-93473 70223</b>
                 </i>{" "}
                 to start your Journey with Us
               </p>
-              <a href="tel:+919490685458">
+              <a href="tel:+919347370223">
                 <img src={call} alt="Call Us" />
               </a>
             </div>
